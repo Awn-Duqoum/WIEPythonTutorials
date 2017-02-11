@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{geometry}
+\geometry {margin=1.5in}
+\title{Python Beginner Tutorial}
+\author{Awn Duqoum}
+\date{December 2016}
+
+\begin{document}
+
+\maketitle
+
+\section{Purpose}
+
+The purpose of this tutorial is to teach the basics of Python and structured programming in general. The purpose of this document is then to outline the structure of the tutorial and to provide the resources for further learning.
+
+
+\section{Required Software}
+
+
+In order to follow along with this tutorial, you will require the following: 
+
+\begin{itemize}
+    \item Python 3 (3.6.0)
+    \begin{itemize}
+        \item Can be found at \url{https://www.python.org/downloads/}
+    \end{itemize}
+    \item Notepad ++ (or any text editor you like)
+        \begin{itemize}
+        \item Can be found  at \url{https://notepad-plus-plus.org/download/v7.2.2.html}
+        \end{itemize}
+    \item A sense of wonder
+\end{itemize}
+
+\section{Outline}
+The code that will be written in each section can be found here \url{https://goo.gl/0DTrgb}. It is highly encouraged that you write the code yourself, mainly so you can get into the habit of writing it. In addition, you can leave comments for yourself so that you can use your comments from this tutorial for future reference. If, however, you cannot keep up to a section, DON'T WORRY—you can download the files, which are commented and easy to follow. 
+
+\section{Programming Modules}
+\begin{enumerate}
+    \item Debugging 101 : print
+    \item Introduction to Variables
+        \begin{itemize}
+            \item What are variables ?
+            \item Assigning values to variables 
+            \item Variable Types 
+                \begin{enumerate}
+                    \item Strings 
+                    \item Numbers
+                    \item Lists
+                \end{enumerate}
+        \end{itemize}
+    \item If Statements
+        \begin{enumerate}
+            \item What are If statements and why do we need them ?
+        \end{enumerate}
+    \item For/While Loops 
+            \begin{enumerate}
+            \item What are loops and why do we need them ?
+            \item What are the differences between For and While loops ?
+        \end{enumerate}
+    \item Functions
+        \begin{enumerate}
+            \item What are functions ?
+            \item Function syntax
+        \end{enumerate}
+\end{enumerate}
+
+\section{Finale : Making    Turtles}
+Now that we know the basics, we can use them to make something fun. For the last part of this tutorial, we will be using the "Turtle" library that comes with the basic installation of Python. Before we can use it, we need to import it—we do so by typing at the start of the document:
+\begin{lstlisting}
+import turtle
+\end{lstlisting}
+Adding this line tells the interrupter that you want to use functions and objects from the turtle library. If you need to create a common structure or function in Python, a good place to start is to search for a library that does what you are looking for—oftentimes, what you are looking for has already been made.
+The turtle library is a very simple way of using objects and drawing in Python. It has a few functions that can be used, in addition to the concepts that we covered above to create really advanced canvases. In short, it's the digital version of an etch and sketch. A full list of the turtle functions can be found here \url{https://docs.python.org/2/library/turtle.html}. You may find it useful to use the command line prompt to test out some turtle functions before writing them into script. This is very simple to do; simply open your command prompt and type: 
+\begin{lstlisting}
+python
+import turtle 
+\end{lstlisting}
+Then use the prompt to execute your instruction right away.
+\section{Whats next?}
+Now that you have a basic understanding of Python and how to use it to create programs, you also know how to use the print function to debug your code. Below is a list of topics that extend these concepts that are worth looking into to learn more about how powerful this language is: 
+\begin{itemize}
+    \item Classes 
+    \item Multidimensional lists 
+    \item Dictionaries  
+    \item OS/Sys interfacing
+\end{itemize}
+
+\end{document}
