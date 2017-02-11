@@ -1,0 +1,11 @@
+TEST
+1
+2
+
+
+
+
+
+
+1
+<built-in method close of file object at 0x0000000003353150>

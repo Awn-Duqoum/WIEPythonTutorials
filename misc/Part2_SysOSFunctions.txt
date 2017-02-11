@@ -1,0 +1,1 @@
+# The purpose of this module is to explain how multidimensional arrays work and how they can be used
